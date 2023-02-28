@@ -1,0 +1,7 @@
+EnableFileSyncMonitoring=false
+FileSyncMonitoringDelay=15
+disable.label.computation=false
+eclipse.preferences.version=1
+expand.left.viewer.content=true
+expand.right.viewer.content=true
+expand.single.viewer.content=true
