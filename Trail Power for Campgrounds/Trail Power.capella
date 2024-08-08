@@ -1852,7 +1852,14 @@
                 sourceElement="#a7f991dd-1753-4f1a-bfba-1d2c762d403f"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="a5d26c25-aa0e-476d-85e2-729df808771d" name="Accept Charger">
+              id="a5d26c25-aa0e-476d-85e2-729df808771d" name="Accept Charger" appliedPropertyValueGroups="#67f97bc9-3d20-413d-ad13-1e779899f0e7">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="67f97bc9-3d20-413d-ad13-1e779899f0e7" name="DailyActivity">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="777b0477-8134-4585-85d6-4459111cf068" name="Units" value="Percent"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="2ad668cc-a1fa-4df6-a8b8-c30fa930c816" name="Value" value="0.15"/>
+            </ownedPropertyValueGroups>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="3b239d4d-58a9-41f1-84f2-3738187ae360" name="inEnergy">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1908,7 +1915,14 @@
                 sourceElement="#8e08e4fd-c18b-4e67-93d0-a4acecf5b5d4"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="c75cb181-266a-4bd5-b4a1-c68934ef45ca" name="Produce Light">
+              id="c75cb181-266a-4bd5-b4a1-c68934ef45ca" name="Produce Light" appliedPropertyValueGroups="#b4cd0af7-b9bb-4282-a562-ad50b085fc11">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="b4cd0af7-b9bb-4282-a562-ad50b085fc11" name="DailySunLight">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="2638e471-bbd4-4d5a-b218-65f82a4fddd8" name="Units" value="Percent"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="f58726fb-f92f-4359-b504-4ffbceedbe9d" name="Value" value="50.0"/>
+            </ownedPropertyValueGroups>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="91d2d45c-98d7-467a-a158-63e6bc1f631d" name="FOP 1">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1922,7 +1936,15 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="5922e4bc-45e5-46c3-9307-5579b6738a72" name="Convert Light to Electrical Energy">
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                id="a1d82e0d-5dd9-4a2b-9f80-8cf7dc135940" name="Convert Light to Power">
+                id="a1d82e0d-5dd9-4a2b-9f80-8cf7dc135940" name="Convert Light to Power"
+                appliedPropertyValueGroups="#a975d430-3da3-4487-ba26-ed10b41bcc42">
+              <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                  id="a975d430-3da3-4487-ba26-ed10b41bcc42" name="Solar Panel Wattage">
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                    id="0f2b2a12-c7ec-4937-a8a6-39e1807ac165" name="Units" value="Watts"/>
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                    id="b4970e79-cbc1-4445-900f-dbc56b2cb4c0" name="Value" value="20.0"/>
+              </ownedPropertyValueGroups>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="dde4480d-4864-494c-bf44-9c0b644f6a19" name="FIP 1">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1938,7 +1960,15 @@
                   sourceElement="#a1d82e0d-5dd9-4a2b-9f80-8cf7dc135940"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                id="35b0d159-0416-4bb0-954c-450d75c98545" name="Charge Storage Device">
+                id="35b0d159-0416-4bb0-954c-450d75c98545" name="Charge Storage Device"
+                appliedPropertyValueGroups="#569adf3e-6216-4374-9bca-14f78de8eedf">
+              <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                  id="569adf3e-6216-4374-9bca-14f78de8eedf" name="Charger Efficiency">
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                    id="c4c39bdd-b0a5-4420-98db-6dd0c2c816b1" name="Units" value="Percent"/>
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                    id="359e1cb3-96c9-477a-b9f2-6067c99d157d" name="Value" value="60.0"/>
+              </ownedPropertyValueGroups>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="358d4e7f-ac17-484c-8caf-13842665fdd5" name="FIP 1"/>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -1952,7 +1982,14 @@
                   sourceElement="#35b0d159-0416-4bb0-954c-450d75c98545"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                id="f79ae36f-4477-4560-87d6-85213a597406" name="Store Energy">
+                id="f79ae36f-4477-4560-87d6-85213a597406" name="Store Energy" appliedPropertyValueGroups="#330cddac-81ed-4063-a314-355e1fc97e2c">
+              <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                  id="330cddac-81ed-4063-a314-355e1fc97e2c" name="Battery Capacity">
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                    id="48ae815c-3ccc-4240-9535-6c2b1f10438a" name="Units" value="mAh"/>
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                    id="e0c39e2b-999e-4f60-adde-cb27276351db" name="Value" value="2800.0"/>
+              </ownedPropertyValueGroups>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="40eec3de-374d-4703-9b09-1eb39b6b7b60" name="Charger Power"/>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -1986,7 +2023,22 @@
                   sourceElement="#767385c6-be7d-45e7-8496-276296d46cf3"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                id="e1dd9f8d-ba9f-4119-9b91-e48544cd7c68" name="Boost Voltage to USB">
+                id="e1dd9f8d-ba9f-4119-9b91-e48544cd7c68" name="Boost Voltage to USB"
+                appliedPropertyValueGroups="#02c2de46-c8f7-4f19-8b55-11283077f7cb #1c665771-4f84-40da-8300-debb9ab7fddd">
+              <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                  id="02c2de46-c8f7-4f19-8b55-11283077f7cb" name="DeviceCurrentLimit">
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                    id="7f3b7f05-3811-47b6-b6e7-6203e67fe399" name="Units" value="A"/>
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                    id="02943318-d3de-400b-94ba-9c51215abcaa" name="Value" value="2.0"/>
+              </ownedPropertyValueGroups>
+              <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                  id="1c665771-4f84-40da-8300-debb9ab7fddd" name="Boost Efficiency">
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                    id="13d16804-7dd8-40e4-9b87-5cd2836d2801" name="Units" value="Percent"/>
+                <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                    id="1473f863-d53c-4af4-b054-c9c1b3d7be70" name="Value" value="90.0"/>
+              </ownedPropertyValueGroups>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="6a4c040d-f289-4635-b090-52f81175df9c" name="FIP 1">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
