@@ -1858,7 +1858,9 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="777b0477-8134-4585-85d6-4459111cf068" name="Units" value="Percent"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="2ad668cc-a1fa-4df6-a8b8-c30fa930c816" name="Value" value="0.15"/>
+                  id="2ad668cc-a1fa-4df6-a8b8-c30fa930c816" name="Max Value" value="25.0"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="04f7b59e-a7b7-4b61-bc47-dc594ca032cf" name="Nominal Usage" value="15.0"/>
             </ownedPropertyValueGroups>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="3b239d4d-58a9-41f1-84f2-3738187ae360" name="inEnergy">
@@ -2555,7 +2557,7 @@
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="d961f418-1cbd-40cc-9d54-d6582a39fee8" name="Battery" description="&lt;p>Battery options&lt;/p>&#xA;&#xA;&lt;p>Amazon&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.amazon.com/s?k=rechargeable+batteries+NImh&amp;amp;ref=nb_sb_noss_2&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.amazon.com/s?k=rechargeable+batteries+NImh&amp;amp;ref=nb_sb_noss_2&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.amazon.com/s?k=lithium+ion+rechargeable+batteries&amp;amp;crid=KQPO6A961WM0&amp;amp;sprefix=Lith%2Caps%2C450&amp;amp;ref=nb_sb_ss_i_3_4&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.amazon.com/s?k=lithium+ion+rechargeable+batteries&amp;amp;crid=KQPO6A961WM0&amp;amp;sprefix=Lith%2Caps%2C450&amp;amp;ref=nb_sb_ss_i_3_4&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>Banggood&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.banggood.com/search/18650-battery.html?from=nav&quot;>https://www.banggood.com/search/18650-battery.html?from=nav&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>This looks promising.&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.amazon.com/NCR18650B-Storage-Holder-doorbell-Flashlight/dp/B083XK5HDG/ref=sr_1_16?dchild=1&amp;amp;keywords=18650+panasonic&amp;amp;qid=1608571632&amp;amp;sr=8-16&quot;>https://www.amazon.com/NCR18650B-Storage-Holder-doorbell-Flashlight/dp/B083XK5HDG/ref=sr_1_16?dchild=1&amp;amp;keywords=18650+panasonic&amp;amp;qid=1608571632&amp;amp;sr=8-16&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
-              appliedPropertyValueGroups="#330cddac-81ed-4063-a314-355e1fc97e2c">
+              appliedPropertyValueGroups="#330cddac-81ed-4063-a314-355e1fc97e2c #8d1475d4-a031-4cc4-936e-66dfce01a375">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="330cddac-81ed-4063-a314-355e1fc97e2c" name="Battery Capacity">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
@@ -2563,19 +2565,37 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
                   id="e0c39e2b-999e-4f60-adde-cb27276351db" name="Value" value="2800.0"/>
             </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="8d1475d4-a031-4cc4-936e-66dfce01a375" name="BatteryCount">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="379a46a0-39c0-425d-b013-a9c3f80c723a" name="Min Battery Count"
+                  value="2"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="ec4ebf3a-4ab4-4e2f-9446-06ac4393f692" name="Max Battery Count"
+                  value="4"/>
+            </ownedPropertyValueGroups>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="e43e9ec2-3fd7-4c95-8e44-1d15a7dfd866" targetElement="#f79ae36f-4477-4560-87d6-85213a597406"
                 sourceElement="#d961f418-1cbd-40cc-9d54-d6582a39fee8"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="bd66ea7b-0e29-49de-90c3-08340f206c96" name="Solar Panel" description="&lt;p>Solar Panel Options.&lt;/p>&#xA;&#xA;&lt;p>Banggood&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.banggood.com/search/solar-panel.html?from=nav&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.banggood.com/search/solar-panel.html?from=nav&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>Amazon&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.amazon.com/s?k=solar+panel&amp;amp;ref=nb_sb_noss&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.amazon.com/s?k=solar+panel&amp;amp;ref=nb_sb_noss&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
-              appliedPropertyValueGroups="#a975d430-3da3-4487-ba26-ed10b41bcc42">
+              appliedPropertyValueGroups="#a975d430-3da3-4487-ba26-ed10b41bcc42 #b756235c-7b7e-4878-b0e7-c518c8a1b422">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="a975d430-3da3-4487-ba26-ed10b41bcc42" name="Solar Panel Wattage">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="0f2b2a12-c7ec-4937-a8a6-39e1807ac165" name="Units" value="Watts"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="b4970e79-cbc1-4445-900f-dbc56b2cb4c0" name="Value" value="20.0"/>
+                  id="b4970e79-cbc1-4445-900f-dbc56b2cb4c0" name="Value" value="2.5"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="b756235c-7b7e-4878-b0e7-c518c8a1b422" name="Solar Panel Count">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="42b4d7d6-a019-4041-b23a-4667009d5835" name="Min Solar Panel Count"
+                  value="2"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="6f03d71c-f551-4511-bfe6-02c1e013f3ae" name="Max Solar Panel Count"
+                  value="4"/>
             </ownedPropertyValueGroups>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="21a7e06d-be7f-421a-adb0-77a63b7da8bf" targetElement="#a1d82e0d-5dd9-4a2b-9f80-8cf7dc135940"
