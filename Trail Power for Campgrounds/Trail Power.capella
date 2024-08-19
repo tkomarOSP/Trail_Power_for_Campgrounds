@@ -2234,7 +2234,7 @@
               sourceElement="#04fbb1f7-86f8-4c9c-b1b7-21b7da26ccc2"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="e2cf0a2e-fa66-4de4-95ec-491e1fc41c19" name="Device Disconnect" target="#ab7330fb-a762-4d52-81b6-5653a074dfcb"
-              source="#027d76c7-ca1c-43b5-bfd3-4ebb3a2bd712">
+              source="#027d76c7-ca1c-43b5-bfd3-4ebb3a2bd712" exchangedItems="#ab75a547-231b-484c-97af-021595bbb121">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="f3e93345-e370-47d2-9292-e41482b9aa7e" targetElement="#f1b20aea-abb4-4dc4-89a9-9b364fe59695"
                 sourceElement="#e2cf0a2e-fa66-4de4-95ec-491e1fc41c19"/>
@@ -2290,7 +2290,8 @@
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="2bfddda8-0ec2-40ee-b3aa-558305ac735d" name="Charger Disconnect"
-              target="#cb7d72ef-3661-4a34-83aa-40e832a1b288" source="#c3dcb74d-158f-46ea-804a-82cf4a64265e">
+              target="#cb7d72ef-3661-4a34-83aa-40e832a1b288" source="#c3dcb74d-158f-46ea-804a-82cf4a64265e"
+              exchangedItems="#ab75a547-231b-484c-97af-021595bbb121">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="e6ff51b3-001f-4a4d-af1d-e83146873aa4" targetElement="#7d37cdd9-563e-4bcd-9ea9-5b7b37870f6d"
                 sourceElement="#2bfddda8-0ec2-40ee-b3aa-558305ac735d"/>
@@ -2494,6 +2495,8 @@
                 id="8a4255e0-cbff-4668-a6b4-fd82c9e28bad" value="1"/>
           </ownedElements>
         </ownedExchangeItems>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="ab75a547-231b-484c-97af-021595bbb121" name="Disconnect" exchangeMechanism="OPERATION"/>
         <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
             id="463f5b96-e32b-4af5-9854-38793a7a3fac" name="USB Signal"/>
         <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
