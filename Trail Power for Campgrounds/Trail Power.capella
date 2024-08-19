@@ -2241,7 +2241,7 @@
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="6f06fc19-fb68-489d-9653-f4ad3a41fa3d" name="Light" target="#dde4480d-4864-494c-bf44-9c0b644f6a19"
-              source="#91d2d45c-98d7-467a-a158-63e6bc1f631d">
+              source="#91d2d45c-98d7-467a-a158-63e6bc1f631d" exchangedItems="#d62bc989-a5a9-449d-8505-93abff00b002">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="b91d6289-3e10-4d1f-af65-28e7ecd8139f" targetElement="#d8fe08aa-cf22-4250-bc3f-72a3e40d9823"
                 sourceElement="#6f06fc19-fb68-489d-9653-f4ad3a41fa3d"/>
