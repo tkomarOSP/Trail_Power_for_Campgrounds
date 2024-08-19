@@ -2454,7 +2454,7 @@
         <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
             id="ce92ca67-ffcf-4b1b-aea2-9bdf8f05c2c6" name="Panel Power" exchangeMechanism="FLOW">
           <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
-              id="e64a196f-904e-4b6f-937f-69b9952eef5c" name="Panel Power" abstractType="#ebbd0594-864b-4b29-809b-f50ce7f35048"
+              id="e64a196f-904e-4b6f-937f-69b9952eef5c" name="PanelPanelPower" abstractType="#ebbd0594-864b-4b29-809b-f50ce7f35048"
               direction="UNSET" composite="true">
             <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
                 id="88e60b12-d8f2-4c52-8885-ca524f7186ca" value="1"/>
@@ -2465,7 +2465,7 @@
         <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
             id="5fb9f500-0892-4055-9c1b-f96aef9bc140" name="Charger Power" exchangeMechanism="FLOW">
           <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
-              id="69e58872-35a6-47e0-8b36-b9581e402a82" name="Charger Power" abstractType="#4ddb2ed4-128c-4dd6-85f7-8f2d4c4cd6d0"
+              id="69e58872-35a6-47e0-8b36-b9581e402a82" name="PowerGenerator" abstractType="#4ddb2ed4-128c-4dd6-85f7-8f2d4c4cd6d0"
               direction="UNSET" composite="true">
             <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
                 id="0cd7c613-0625-42fd-9e0e-df3f8a777fc8" value="1"/>
@@ -2476,7 +2476,7 @@
         <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
             id="779dfaf8-69e8-43ef-b2ae-8c40fc2fa5cc" name="Battery Power" exchangeMechanism="FLOW">
           <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
-              id="d00c6511-e08e-42d9-bf52-82c647f6b1df" name="Battery Power" abstractType="#4ddb2ed4-128c-4dd6-85f7-8f2d4c4cd6d0"
+              id="d00c6511-e08e-42d9-bf52-82c647f6b1df" name="BatteryLoad" abstractType="#4ddb2ed4-128c-4dd6-85f7-8f2d4c4cd6d0"
               direction="UNSET" composite="true">
             <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
                 id="fa957fe3-a144-4a90-b34c-17beff6d5742" value="1"/>
@@ -2500,11 +2500,11 @@
         <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
             id="463f5b96-e32b-4af5-9854-38793a7a3fac" name="USB Signal"/>
         <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-            id="4ddb2ed4-128c-4dd6-85f7-8f2d4c4cd6d0" name="LI 18650"/>
+            id="4ddb2ed4-128c-4dd6-85f7-8f2d4c4cd6d0" name="Power"/>
         <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
             id="052e3bce-b8ca-4698-ac0e-b7403a22d8bc" name="Light"/>
         <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-            id="ebbd0594-864b-4b29-809b-f50ce7f35048" name="Solar Panel"/>
+            id="ebbd0594-864b-4b29-809b-f50ce7f35048" name="Panel Power"/>
       </ownedDataPkg>
       <ownedLogicalComponentPkg xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
           id="4770cba6-5358-4335-a9e1-50a8b01a36f5" name="Structure">
