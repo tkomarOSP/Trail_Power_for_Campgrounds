@@ -1948,6 +1948,15 @@
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
                 id="35b0d159-0416-4bb0-954c-450d75c98545" name="Charge Storage Device">
+              <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                  id="5699c9b6-8624-4969-af9e-502530766b51" name="" description="&lt;p>&lt;a href=&quot;https://simcenter-studio-sn.plm.automation.siemens.com/user/komar/lab/workspaces/auto-u/tree/Trail_Power_for_Campgrounds/Trail%20Power%20for%20Campgrounds/Notebooks/Logical_Architecture_Study_Template.ipynb&quot;>https://simcenter-studio-sn.plm.automation.siemens.com/user/komar/lab/workspaces/auto-u/tree/Trail_Power_for_Campgrounds/Trail%20Power%20for%20Campgrounds/Notebooks/Logical_Architecture_Study_Template.ipynb&lt;/a>&lt;/p>&#xA;"
+                  constrainedElements="#35b0d159-0416-4bb0-954c-450d75c98545">
+                <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                    id="d7b1a53d-2c8b-4fe5-827d-771d8a65b636">
+                  <bodies>&lt;a href=&quot;afa0c309-20b9-416a-b47c-f0809d04d1fc&quot;/> *  Charger Efficiency = &lt;a href=&quot;85ed3524-9676-4900-a945-83d65ba89293&quot;/></bodies>
+                  <languages>capella:linkedText</languages>
+                </ownedSpecification>
+              </ownedConstraints>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="358d4e7f-ac17-484c-8caf-13842665fdd5" name="FIP 1"/>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -1962,6 +1971,14 @@
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
                 id="f79ae36f-4477-4560-87d6-85213a597406" name="Store Energy">
+              <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                  id="06eef073-f7f7-46ef-b2a6-13cdd7fbd770" name="" constrainedElements="#f79ae36f-4477-4560-87d6-85213a597406">
+                <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                    id="bd0c759c-7884-4998-9ebd-9e997fcd209c">
+                  <bodies>Stored Energy(t) = Integral(&lt;a href=&quot;85ed3524-9676-4900-a945-83d65ba89293&quot;/>) over time present</bodies>
+                  <languages>capella:linkedText</languages>
+                </ownedSpecification>
+              </ownedConstraints>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="40eec3de-374d-4703-9b09-1eb39b6b7b60" name="Charger Power"/>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -1996,6 +2013,14 @@
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
                 id="e1dd9f8d-ba9f-4119-9b91-e48544cd7c68" name="Boost Voltage to USB">
+              <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                  id="8975b9c4-b85a-4f6c-b087-f6d2e47b3233" name="" constrainedElements="#e1dd9f8d-ba9f-4119-9b91-e48544cd7c68">
+                <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                    id="20a75708-f6f6-4b96-9d68-ccf1162f8431">
+                  <bodies>&lt;a href=&quot;c823bdcf-4739-4408-8856-4a9249b07fee&quot;/>(t) =Integral( 5.0 + DeviceCurrentLimit) with respect time connected.</bodies>
+                  <languages>capella:linkedText</languages>
+                </ownedSpecification>
+              </ownedConstraints>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="6a4c040d-f289-4635-b090-52f81175df9c" name="FIP 1">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -2648,6 +2673,14 @@
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="bd66ea7b-0e29-49de-90c3-08340f206c96" name="Solar Panel" description="&lt;p>Solar Panel Options.&lt;/p>&#xA;&#xA;&lt;p>Banggood&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.banggood.com/search/solar-panel.html?from=nav&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.banggood.com/search/solar-panel.html?from=nav&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>Amazon&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.amazon.com/s?k=solar+panel&amp;amp;ref=nb_sb_noss&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.amazon.com/s?k=solar+panel&amp;amp;ref=nb_sb_noss&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
               appliedPropertyValueGroups="#a975d430-3da3-4487-ba26-ed10b41bcc42 #b756235c-7b7e-4878-b0e7-c518c8a1b422">
+            <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                id="bf7c00c3-b91b-4003-a73c-abaf8fa77cf9" name="" constrainedElements="#bd66ea7b-0e29-49de-90c3-08340f206c96">
+              <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                  id="27c23457-0a27-4f99-b6e0-e42d33a545b5">
+                <bodies>&lt;a href=&quot;d9af9761-a3d1-468d-947e-74122dec9583&quot;/> = Solar Panel Coun t * Solar Panel Wattage * &lt;a href=&quot;6f06fc19-fb68-489d-9653-f4ad3a41fa3d&quot;/></bodies>
+                <languages>capella:linkedText</languages>
+              </ownedSpecification>
+            </ownedConstraints>
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="a975d430-3da3-4487-ba26-ed10b41bcc42" name="Solar Panel Wattage">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
