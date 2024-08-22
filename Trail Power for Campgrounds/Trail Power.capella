@@ -1975,7 +1975,7 @@
                   id="06eef073-f7f7-46ef-b2a6-13cdd7fbd770" name="" constrainedElements="#f79ae36f-4477-4560-87d6-85213a597406">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="bd0c759c-7884-4998-9ebd-9e997fcd209c">
-                  <bodies>Stored Energy(t) = Integral(&lt;a href=&quot;85ed3524-9676-4900-a945-83d65ba89293&quot;/>) over time present</bodies>
+                  <bodies>Stored Energy(t) = Integral(&lt;a href=&quot;85ed3524-9676-4900-a945-83d65ba89293&quot;/>(t)) - Supplied Power(t)</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -2677,7 +2677,7 @@
                 id="bf7c00c3-b91b-4003-a73c-abaf8fa77cf9" name="" constrainedElements="#bd66ea7b-0e29-49de-90c3-08340f206c96">
               <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                   id="27c23457-0a27-4f99-b6e0-e42d33a545b5">
-                <bodies>&lt;a href=&quot;d9af9761-a3d1-468d-947e-74122dec9583&quot;/> = Solar Panel Count * Solar Panel Wattage * &lt;a href=&quot;6f06fc19-fb68-489d-9653-f4ad3a41fa3d&quot;/></bodies>
+                <bodies>&lt;a href=&quot;d9af9761-a3d1-468d-947e-74122dec9583&quot;/>(t) = Solar Panel Count * Solar Panel Wattage * &lt;a href=&quot;6f06fc19-fb68-489d-9653-f4ad3a41fa3d&quot;/>(t)</bodies>
                 <languages>capella:linkedText</languages>
               </ownedSpecification>
             </ownedConstraints>
