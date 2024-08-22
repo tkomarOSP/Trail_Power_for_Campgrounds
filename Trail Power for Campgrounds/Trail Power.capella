@@ -1953,7 +1953,7 @@
                   constrainedElements="#35b0d159-0416-4bb0-954c-450d75c98545">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="d7b1a53d-2c8b-4fe5-827d-771d8a65b636">
-                  <bodies>&lt;a href=&quot;afa0c309-20b9-416a-b47c-f0809d04d1fc&quot;/> *  Charger Efficiency = &lt;a href=&quot;85ed3524-9676-4900-a945-83d65ba89293&quot;/></bodies>
+                  <bodies>Chareger Power = &lt;a href=&quot;afa0c309-20b9-416a-b47c-f0809d04d1fc&quot;/> *  Charger Efficiency = </bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -2017,7 +2017,7 @@
                   id="8975b9c4-b85a-4f6c-b087-f6d2e47b3233" name="" constrainedElements="#e1dd9f8d-ba9f-4119-9b91-e48544cd7c68">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="20a75708-f6f6-4b96-9d68-ccf1162f8431">
-                  <bodies>&lt;a href=&quot;c823bdcf-4739-4408-8856-4a9249b07fee&quot;/>(t) =Integral( 5.0 + DeviceCurrentLimit) with respect time connected.</bodies>
+                  <bodies>&lt;a href=&quot;c823bdcf-4739-4408-8856-4a9249b07fee&quot;/>(t) =( 5.0 Volts * DeviceCurrentLimit(t))</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -2056,7 +2056,7 @@
                 id="8f04b672-7c8c-45f1-9fd4-7f477c94d282" targetElement="#45ee9af8-9f19-4777-816c-d1b81225be8f"
                 sourceElement="#5922e4bc-45e5-46c3-9307-5579b6738a72"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="d9af9761-a3d1-468d-947e-74122dec9583" name="Power" target="#358d4e7f-ac17-484c-8caf-13842665fdd5"
+                id="d9af9761-a3d1-468d-947e-74122dec9583" name="Panel Power" target="#358d4e7f-ac17-484c-8caf-13842665fdd5"
                 source="#5797a53e-17bb-46b5-a7db-7902702abc99" exchangedItems="#ce92ca67-ffcf-4b1b-aea2-9bdf8f05c2c6"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
                 id="85ed3524-9676-4900-a945-83d65ba89293" name="Charger Power" target="#40eec3de-374d-4703-9b09-1eb39b6b7b60"
@@ -2071,7 +2071,7 @@
                 id="fe960850-a72f-47ed-8b45-3d4a62797d9e" name="Store Voltage" target="#a6255052-8e7d-4b79-bdd0-1234e99270fd"
                 source="#30138ac7-2f05-4cc4-81a7-3322bbf07c8b"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="c823bdcf-4739-4408-8856-4a9249b07fee" name="Stored Energy" target="#6a4c040d-f289-4635-b090-52f81175df9c"
+                id="c823bdcf-4739-4408-8856-4a9249b07fee" name="Supplied Power" target="#6a4c040d-f289-4635-b090-52f81175df9c"
                 source="#36985bc0-33a8-41b9-b861-cbf51a9ceff9" exchangedItems="#5fb9f500-0892-4055-9c1b-f96aef9bc140">
               <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                   id="f05711b9-4f7c-4597-873b-8693e9cba4b5" targetElement="#afa0c309-20b9-416a-b47c-f0809d04d1fc"
@@ -2677,7 +2677,7 @@
                 id="bf7c00c3-b91b-4003-a73c-abaf8fa77cf9" name="" constrainedElements="#bd66ea7b-0e29-49de-90c3-08340f206c96">
               <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                   id="27c23457-0a27-4f99-b6e0-e42d33a545b5">
-                <bodies>&lt;a href=&quot;d9af9761-a3d1-468d-947e-74122dec9583&quot;/> = Solar Panel Coun t * Solar Panel Wattage * &lt;a href=&quot;6f06fc19-fb68-489d-9653-f4ad3a41fa3d&quot;/></bodies>
+                <bodies>&lt;a href=&quot;d9af9761-a3d1-468d-947e-74122dec9583&quot;/> = Solar Panel Count * Solar Panel Wattage * &lt;a href=&quot;6f06fc19-fb68-489d-9653-f4ad3a41fa3d&quot;/></bodies>
                 <languages>capella:linkedText</languages>
               </ownedSpecification>
             </ownedConstraints>
