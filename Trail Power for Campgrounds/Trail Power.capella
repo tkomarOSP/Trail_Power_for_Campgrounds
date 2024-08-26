@@ -2741,6 +2741,34 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="4bd8018a-bc3a-4256-a6e3-1c8dceca7d66" targetElement="#e088dfff-69b3-4d9b-bf72-26fc36ccab4b"
                 sourceElement="#6d0bef31-bc7a-4c2a-a484-fc630b700024"/>
+            <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
+                id="929694e0-6c8a-41ac-8fd9-2912c0dfb40a" name="StateMachine 1">
+              <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                  id="e6f6f622-f38c-41e2-9198-14ee999df78c" name="Default Region"
+                  involvedStates="#951a2528-ca36-430d-b522-498f02d65e05 #08769ad9-6464-4005-9595-0b75c41d1168 #07d1e978-e8fd-4429-a5b2-336d3fe121fc">
+                <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:InitialPseudoState"
+                    id="951a2528-ca36-430d-b522-498f02d65e05" name="Initial 1"/>
+                <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
+                    id="08769ad9-6464-4005-9595-0b75c41d1168" name="Mode 2">
+                  <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                      id="ee466aa0-a345-4ffd-a4fc-bbec3df0f7da" name="region"/>
+                </ownedStates>
+                <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
+                    id="07d1e978-e8fd-4429-a5b2-336d3fe121fc" name="Mode 3">
+                  <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                      id="cead3962-9210-4370-bd21-69fbd3cf83d4" name="region"/>
+                </ownedStates>
+                <ownedTransitions xsi:type="org.polarsys.capella.core.data.capellacommon:StateTransition"
+                    id="173394d4-96d5-4e64-a058-1a2e4a38f91c" triggerDescription=""
+                    source="#08769ad9-6464-4005-9595-0b75c41d1168" target="#07d1e978-e8fd-4429-a5b2-336d3fe121fc"/>
+                <ownedTransitions xsi:type="org.polarsys.capella.core.data.capellacommon:StateTransition"
+                    id="bab44b4a-b0a5-4e08-a2c1-8945505cb924" triggerDescription=""
+                    source="#07d1e978-e8fd-4429-a5b2-336d3fe121fc" target="#08769ad9-6464-4005-9595-0b75c41d1168"/>
+                <ownedTransitions xsi:type="org.polarsys.capella.core.data.capellacommon:StateTransition"
+                    id="afc36b65-1d09-4656-8267-3128dd43bab7" triggerDescription=""
+                    source="#951a2528-ca36-430d-b522-498f02d65e05" target="#08769ad9-6464-4005-9595-0b75c41d1168"/>
+              </ownedRegions>
+            </ownedStateMachines>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="b5c21be0-a939-46ef-8808-d7dd6132dd86" name="Charger Tracking System">
