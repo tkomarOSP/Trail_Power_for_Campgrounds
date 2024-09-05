@@ -2,8 +2,8 @@
 
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
-    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
+    xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0" xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
     xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
@@ -561,6 +561,7 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="5e39d146-3fe1-4a6e-b3b3-1b1a806d53bb" name="System Analysis">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="ebe3c8d5-bbe1-4222-bca2-52b3491904d0"/>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="db4263cc-38fe-43d9-a543-dd7c0dd5cdd0" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
@@ -2533,6 +2534,22 @@
       </ownedDataPkg>
       <ownedLogicalComponentPkg xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
           id="4770cba6-5358-4335-a9e1-50a8b01a36f5" name="Structure">
+        <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+            id="c9beb6b7-a1e8-4417-bc18-2bb9e590262a" name="">
+          <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+              id="b2912916-a392-424f-ae7c-51911af4c24a">
+            <bodies>&lt;a href=&quot;9a1136f1-9ab8-46f3-9114-50b5ce7db157&quot;/> * &lt;a href=&quot;6f06fc19-fb68-489d-9653-f4ad3a41fa3d&quot;/></bodies>
+            <languages>capella:linkedText</languages>
+          </ownedSpecification>
+        </ownedConstraints>
+        <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+            id="bed4277e-fe14-47b2-9f4d-a4127c125f2c" name="">
+          <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+              id="49933260-701f-445e-90d3-df7ac577a577">
+            <bodies></bodies>
+            <languages>capella:linkedText</languages>
+          </ownedSpecification>
+        </ownedConstraints>
         <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
             id="38a08c83-d212-4c50-9d68-62fbf7da691e" targetElement="#f348e118-3aaa-4819-94f6-c09a740c5c91"
             sourceElement="#dd875a15-7fcc-4128-bf6f-ab10489b45df"/>
@@ -2669,6 +2686,62 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="e43e9ec2-3fd7-4c95-8e44-1d15a7dfd866" targetElement="#f79ae36f-4477-4560-87d6-85213a597406"
                 sourceElement="#d961f418-1cbd-40cc-9d54-d6582a39fee8"/>
+            <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
+                id="aee95c5f-080d-4ba8-b566-4cfc2cb56b90" name="StateMachine 1">
+              <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                  id="d54ea455-fa5d-45b2-a062-350e63c54bb8" name="Default Region"
+                  involvedStates="#8a9da7a7-361f-482b-b1ba-1ca836b6f8a4 #8638be42-3533-41ef-bbe5-8cb978f5d44c #483e2efc-691c-4cda-a167-6c3d0f75de91">
+                <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:InitialPseudoState"
+                    id="8a9da7a7-361f-482b-b1ba-1ca836b6f8a4" name="Initial 1"/>
+                <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:State"
+                    id="8638be42-3533-41ef-bbe5-8cb978f5d44c" name="Discharged" doActivity="#f79ae36f-4477-4560-87d6-85213a597406">
+                  <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                      id="26324939-826c-4ee8-8c22-2e5651f189a5" name="region"/>
+                </ownedStates>
+                <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:State"
+                    id="483e2efc-691c-4cda-a167-6c3d0f75de91" name="Charged" doActivity="#f79ae36f-4477-4560-87d6-85213a597406">
+                  <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
+                      id="1fb9ce8b-f444-42c4-bbf0-b1c32234ab9e" name="region"/>
+                </ownedStates>
+                <ownedTransitions xsi:type="org.polarsys.capella.core.data.capellacommon:StateTransition"
+                    id="1eb15cfe-05f8-486a-9974-685054713226" triggerDescription=""
+                    source="#8a9da7a7-361f-482b-b1ba-1ca836b6f8a4" target="#8638be42-3533-41ef-bbe5-8cb978f5d44c"/>
+                <ownedTransitions xsi:type="org.polarsys.capella.core.data.capellacommon:StateTransition"
+                    id="57f06d7e-de88-407e-932b-0e8020f5fc60" triggerDescription=""
+                    guard="#af8a4adb-5645-4b10-a05c-f576805ddac3" source="#8638be42-3533-41ef-bbe5-8cb978f5d44c"
+                    target="#483e2efc-691c-4cda-a167-6c3d0f75de91">
+                  <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                      id="26f44ce2-a2fd-4d39-af4a-b23bde387b16" name="">
+                    <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                        id="91ab0305-0317-44ad-846c-a8640666866f">
+                      <bodies></bodies>
+                      <languages>capella:linkedText</languages>
+                    </ownedSpecification>
+                  </ownedConstraints>
+                  <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                      id="af8a4adb-5645-4b10-a05c-f576805ddac3" name="">
+                    <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                        id="9ffea79f-5744-4241-b12c-5d2bb1b08552">
+                      <bodies>Battery_Charge &amp;gt; 10</bodies>
+                      <languages>capella:linkedText</languages>
+                    </ownedSpecification>
+                  </ownedConstraints>
+                </ownedTransitions>
+                <ownedTransitions xsi:type="org.polarsys.capella.core.data.capellacommon:StateTransition"
+                    id="66dc4523-0e2c-4678-a3bd-4a1232723a77" triggerDescription=""
+                    guard="#5311fb62-daf7-4b1c-bd80-65dd0ffe39f0" source="#483e2efc-691c-4cda-a167-6c3d0f75de91"
+                    target="#8638be42-3533-41ef-bbe5-8cb978f5d44c">
+                  <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                      id="5311fb62-daf7-4b1c-bd80-65dd0ffe39f0" name="">
+                    <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                        id="a99e7e0d-a20d-4599-8feb-102b3f708789">
+                      <bodies>Battery_Charge &amp;lt; 10</bodies>
+                      <languages>capella:linkedText</languages>
+                    </ownedSpecification>
+                  </ownedConstraints>
+                </ownedTransitions>
+              </ownedRegions>
+            </ownedStateMachines>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="bd66ea7b-0e29-49de-90c3-08340f206c96" name="Solar Panel" description="&lt;p>Solar Panel Options.&lt;/p>&#xA;&#xA;&lt;p>Banggood&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.banggood.com/search/solar-panel.html?from=nav&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.banggood.com/search/solar-panel.html?from=nav&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>Amazon&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://www.amazon.com/s?k=solar+panel&amp;amp;ref=nb_sb_noss&quot;>&lt;font color=&quot;#0066cc&quot;>https://www.amazon.com/s?k=solar+panel&amp;amp;ref=nb_sb_noss&lt;/font>&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
