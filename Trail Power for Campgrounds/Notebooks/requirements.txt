@@ -1,4 +1,5 @@
 capellambse
 sympy
+sismic
 
 
