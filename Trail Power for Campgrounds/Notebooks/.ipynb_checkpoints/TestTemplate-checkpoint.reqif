@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:ns2="http://www.w3.org/1999/xhtml">
+    <THE-HEADER>
+        <REQ-IF-HEADER IDENTIFIER="MDReqIF_1725397611320_270799_0">
+            <CREATION-TIME>2024-09-03T14:06:51</CREATION-TIME>
+            <REPOSITORY-ID>PROJECT-3fca0307-ac55-4022-82a9-ed0c5e064603</REPOSITORY-ID>
+            <REQ-IF-TOOL-ID>MagicDraw</REQ-IF-TOOL-ID>
+            <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+            <SOURCE-TOOL-ID>MagicDraw</SOURCE-TOOL-ID>
+            <TITLE></TITLE>
+        </REQ-IF-HEADER>
+    </THE-HEADER>
+    <CORE-CONTENT>
+        <REQ-IF-CONTENT>
+            <DATATYPES>
+                <DATATYPE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1725397611351_93511_3" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="XHTML"/>
+            </DATATYPES>
+            <SPEC-TYPES>
+                <SPEC-OBJECT-TYPE IDENTIFIER="MDReqIF_1725397611351_163482_1" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Class">
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1725397611351_36058_2" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="ReqIF.Name" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_93511_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                    </SPEC-ATTRIBUTES>
+                </SPEC-OBJECT-TYPE>
+            </SPEC-TYPES>
+            <SPEC-OBJECTS>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723783_216654_17765" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723792_794076_17799" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Adaptability Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Adaptability Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724395_248106_18091" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Potential Extension">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Potential Extension</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724394_531136_18090" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Potential Growth">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Potential Growth</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724394_261433_18089" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Scalability">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Scalability</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723795_947569_17805" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Cost and Schedule Constraints">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Cost and Schedule Constraints</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724399_293878_18113" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Cost Constraints">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Cost Constraints</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724399_893436_18112" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Schedule Constraints">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Schedule Constraints</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723793_919815_17801" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Design Constraints">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Design Constraints</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723794_319869_17802" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Environmental Conditions">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Environmental Conditions</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723789_146078_17793" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Functional Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Functional Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723791_198728_17796" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Interface Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Interface Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724390_85441_18075" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Energy">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Energy</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724389_435715_18073" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Human Interface">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Human Interface</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724390_743540_18074" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Information">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Information</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724391_995767_18076" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Material Exchange">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Material Exchange</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724389_258811_18072" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Physical Connections">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Physical Connections</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723794_789456_17803" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Logistical Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Logistical Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724397_853458_18105" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Handling">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Handling</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724398_158725_18106" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Packaging">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Packaging</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724397_497413_18104" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Shipping">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Shipping</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724398_477568_18107" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Sustainment Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Sustainment Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724412_43986_18201" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Level of Support">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Level of Support</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724412_362101_18202" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Provision of Facilities">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Provision of Facilities</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724411_817392_18199" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Spare Parts">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Spare Parts</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724412_948485_18200" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Support Personnel">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Support Personnel</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724410_331977_18197" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Technical Documentation">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Technical Documentation</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724411_754302_18198" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Training">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Training</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724397_628943_18103" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Transportation">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Transportation</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723792_404438_17798" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Modes and/or States Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Modes and/or States Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723791_95623_17797" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Operational Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Operational Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724393_993848_18082" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Availability">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Availability</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724393_316050_18083" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Ergonomics">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Ergonomics</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724393_323280_18084" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Human Factors">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Human Factors</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724392_969392_18081" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Maintainability">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Maintainability</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724392_669047_18080" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Reliability">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Reliability</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724392_185199_18079" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Security">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Security</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723790_555771_17794" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Performance Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Performance Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723793_794327_17800" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Physical Constraints">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Physical Constraints</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724395_185964_18094" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Dimensions">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Dimensions</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724395_184837_18095" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Volume">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Volume</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724396_995281_18096" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Weight">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Weight</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723795_287733_17804" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Policies and Regulations">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Policies and Regulations</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396723790_680920_17795" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Usability Requirements">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Usability Requirements</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724389_231163_18069" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Measurable Effectiveness">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Measurable Effectiveness</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724388_524752_18068" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Measurable Efficiency">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Measurable Efficiency</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_2022x_2_c0402fd_1725396724388_524857_18067" LAST-CHANGE="2024-09-03T14:06:51" LONG-NAME="Measurable Satisfaction Criteria">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div> Measurable Satisfaction Criteria</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1725397611351_36058_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1725397611351_163482_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+            </SPEC-OBJECTS>
+            <SPEC-RELATIONS/>
+            <SPEC-RELATION-GROUPS/>
+        </REQ-IF-CONTENT>
+    </CORE-CONTENT>
+</REQ-IF>
