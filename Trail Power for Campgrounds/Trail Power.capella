@@ -562,7 +562,7 @@
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="5e39d146-3fe1-4a6e-b3b3-1b1a806d53bb" name="System Analysis">
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="ebe3c8d5-bbe1-4222-bca2-52b3491904d0"
-          ReqIFLongName="Fred" ReqIFName="Fred"/>
+          ReqIFLongName="Requirements" ReqIFName="Fred"/>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="db4263cc-38fe-43d9-a543-dd7c0dd5cdd0" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
