@@ -3,7 +3,8 @@
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
-    xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0" xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
+    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
     xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
@@ -562,7 +563,12 @@
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="5e39d146-3fe1-4a6e-b3b3-1b1a806d53bb" name="System Analysis">
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="ebe3c8d5-bbe1-4222-bca2-52b3491904d0"
-          ReqIFLongName="Requirements" ReqIFName="Fred"/>
+          ReqIFLongName="Requirements" ReqIFName="Fred">
+        <ownedRequirements xsi:type="Requirements:Requirement" id="fa92d2aa-d8f5-48ea-a644-342dc3de5c7a"
+            ReqIFName="Requirements" ReqIFPrefix="_2022x_2_c0402fd_1725554288357_396916_18144"
+            ReqIFLongName="5 _2022x_2_c0402fd_1725554288357_396916_18144 Requirements"
+            ReqIFDescription="&lt;p>_2022x_2_c0402fd_1725554288357_396916_18144: Requirements&lt;/p>&lt;p>Updated: 2024-09-05T10:03:45&lt;/p>&lt;p> Requirements&lt;/p>"/>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="db4263cc-38fe-43d9-a543-dd7c0dd5cdd0" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
