@@ -196,3 +196,18 @@ Coined by the human engineer: "cousin" — same family, different role, compleme
 
 
 **References:** `1e9232b6-5609-49e9-8f28-9785ed301b47`
+
+---
+
+## 2026-06-10T13:51:42Z — milestone
+
+## SE Knowledge Partner System Prompt v2 — Clean Push
+
+System prompt v2 successfully pushed to artifact repo with PAT placeholder `{{GITHUB_PAT}}` in place of real token. Previous push attempt was correctly blocked by GitHub push protection due to a real PAT value in artifact content. Resolved by starting a fresh MCP session (reclone from clean remote history) and rewriting the artifact with placeholder only.
+
+Secret hygiene guideline added to v2 prompt: never include real PAT values in artifact content.
+
+**Artifact:** SE Knowledge Partner — System Prompt v2 [48d5ee3a]
+
+
+**References:** `48d5ee3a-9087-455e-9d98-cc27c4e35323`
