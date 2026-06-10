@@ -142,3 +142,19 @@ The artifact repo MCP currently supports text/JSON/YAML only — binary delivera
 
 
 **References:** `f6965579-99e0-48d9-91ef-306a00c66ae8`
+
+---
+
+## 2026-06-10T13:08:47Z — decision
+
+## Model Change — Exchange Naming Inconsistency Resolved
+
+**Change:** Renamed `Bat Power` → `Chg Power` on Cell 2 charge path (PA layer)
+**UUID patched:** 25520ebc-aea6-456d-a64a-7d30211165fd
+**Commit:** 4a95517d on master
+**Tool:** capella-fabric:apply_model_patch
+
+Both LI 18650 cell charge path exchanges now consistently named `Chg Power`, matching the naming convention established on Cell 1. This resolves the open issue flagged during the battery subsystem analysis session.
+
+Verified post-patch: both UUIDs (6395bb62, 25520ebc) return `Chg Power` on search. Change pushed to master.
+
