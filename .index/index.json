@@ -29,5 +29,18 @@
       "battery",
       "TP-BAT-2026-001"
     ]
+  },
+  "2dca9674-8fff-46fe-9caa-d76141f65b2f": {
+    "type": "log_book",
+    "name": "Trail Power Engineering Work Log",
+    "package_name": "trail-power",
+    "path": "packages/trail-power/artifacts/2026-06/2dca9674-8fff-46fe-9caa-d76141f65b2f",
+    "created_at": "2026-06-10T12:18:09.475672+00:00",
+    "updated_at": "2026-06-10T12:18:09.475699+00:00",
+    "tags": [
+      "log",
+      "work-log",
+      "trail-power"
+    ]
   }
 }
