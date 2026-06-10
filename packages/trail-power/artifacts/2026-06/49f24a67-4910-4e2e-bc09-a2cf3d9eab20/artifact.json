@@ -1,0 +1,22 @@
+{
+  "artifact_id": "49f24a67-4910-4e2e-bc09-a2cf3d9eab20",
+  "name": "Decision — Continue Evaluation with Panasonic NCR18650B",
+  "type": "text",
+  "package_name": "trail-power",
+  "created_at": "2026-06-10T12:23:12.976173Z",
+  "updated_at": "2026-06-10T12:23:12.976199Z",
+  "tags": [
+    "decision",
+    "NCR18650B",
+    "battery",
+    "component-selection",
+    "evaluation",
+    "store-energy"
+  ],
+  "source_tool": "capella-fabric",
+  "lineage": [
+    "11f5f77d-592f-4355-b2b6-0879123fbab5",
+    "f8869c15-c7cc-47d9-8295-618d0274b50c",
+    "03591bcc-7db6-42ad-ae67-dd4117b021a8"
+  ]
+}

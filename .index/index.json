@@ -58,5 +58,21 @@
       "store-energy",
       "verification"
     ]
+  },
+  "49f24a67-4910-4e2e-bc09-a2cf3d9eab20": {
+    "type": "text",
+    "name": "Decision \u2014 Continue Evaluation with Panasonic NCR18650B",
+    "package_name": "trail-power",
+    "path": "packages/trail-power/artifacts/2026-06/49f24a67-4910-4e2e-bc09-a2cf3d9eab20",
+    "created_at": "2026-06-10T12:23:12.976173+00:00",
+    "updated_at": "2026-06-10T12:23:12.976199+00:00",
+    "tags": [
+      "decision",
+      "NCR18650B",
+      "battery",
+      "component-selection",
+      "evaluation",
+      "store-energy"
+    ]
   }
 }
