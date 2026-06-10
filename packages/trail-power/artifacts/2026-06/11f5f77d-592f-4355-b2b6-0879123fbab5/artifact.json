@@ -1,0 +1,18 @@
+{
+  "artifact_id": "11f5f77d-592f-4355-b2b6-0879123fbab5",
+  "name": "Battery Subsystem Analysis — PA Layer",
+  "type": "text",
+  "package_name": "trail-power",
+  "created_at": "2026-06-10T12:17:50.640582Z",
+  "updated_at": "2026-06-10T12:17:50.640611Z",
+  "tags": [
+    "battery",
+    "PA",
+    "NCR18650B",
+    "analysis",
+    "physical-architecture",
+    "store-energy"
+  ],
+  "source_tool": "capella-fabric",
+  "lineage": []
+}
