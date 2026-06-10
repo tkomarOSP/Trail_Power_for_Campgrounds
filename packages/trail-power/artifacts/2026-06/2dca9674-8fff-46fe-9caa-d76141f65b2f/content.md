@@ -158,3 +158,17 @@ Both LI 18650 cell charge path exchanges now consistently named `Chg Power`, mat
 
 Verified post-patch: both UUIDs (6395bb62, 25520ebc) return `Chg Power` on search. Change pushed to master.
 
+---
+
+## 2026-06-10T13:21:41Z — issue
+
+## Issue: Capella Fabric MCP — Write/Patch Capability + Author Identity Amendment
+
+**Part 1 — Write/Patch Capability:** Three new tools (`apply_model_patch`, `push_model_changes`, `verify_model`) added to `capella-fabric` MCP using `py-capellambse >= 0.6` declarative API. Files modified: `capella_service.py`, `git_service.py`, `mcp_server.py`. Status: **Implemented and validated** — first patch applied 2026-06-10 (commit `4a95517d`).
+
+**Part 2 — Author Identity Amendment (Open):** All commits via `apply_model_patch` and `push_artifacts` currently carry the MCP server's default Git identity, not the engineer's. Proposed fix: expose optional `author_name` and `author_email` parameters on both tools, passed through to `git commit --author`. Applies to both `master` (model) and `main` (artifacts). Interim workaround: embed `[Author Name]` in commit message.
+
+**Artifact:** Issue — Capella Fabric MCP: Write/Patch Capability + Author Identity on Commits [b1699e70]
+
+
+**References:** `b1699e70-8490-4329-8bdd-439ba879e741`
