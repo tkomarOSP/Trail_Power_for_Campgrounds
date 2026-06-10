@@ -75,3 +75,28 @@ Key supporting points:
 
 
 **References:** `f8869c15-c7cc-47d9-8295-618d0274b50c`
+
+---
+
+## 2026-06-10T12:23:19Z — decision
+
+## Decision: Continue Evaluation with Panasonic NCR18650B
+
+The program will continue component evaluation using the Panasonic NCR18650B as the selected lithium-ion cell for the `Battery Holder` / `Charge Box` assembly.
+
+**Rationale summary:**
+- Maintains fidelity to the MBSE model baseline (cell is specified in PA layer)
+- Performance evidence supports confidence in spec compliance
+- RFP TP-BAT-2026-001 is in flight to establish formal supplier pricing
+- Strong brand credibility and supply chain availability confirmed
+
+**Conditions for full approval:**
+- RFP responses reviewed and supplier selected
+- Bench testing of cells against `Store Energy` function performance envelope
+- Certificate of Conformance confirmed from selected supplier
+- System integration test within Charge Box assembly completed
+
+**Artifact:** Decision — Continue Evaluation with Panasonic NCR18650B [49f24a67]
+
+
+**References:** `49f24a67-4910-4e2e-bc09-a2cf3d9eab20`
