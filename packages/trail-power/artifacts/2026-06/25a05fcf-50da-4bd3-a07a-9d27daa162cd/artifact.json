@@ -1,0 +1,21 @@
+{
+  "artifact_id": "25a05fcf-50da-4bd3-a07a-9d27daa162cd",
+  "name": "Observation — MBSE-Driven Engineering Approach Shows Strong Value",
+  "type": "text",
+  "package_name": "trail-power",
+  "created_at": "2026-06-10T12:27:20.811364Z",
+  "updated_at": "2026-06-10T12:27:20.811389Z",
+  "tags": [
+    "observation",
+    "MBSE",
+    "process",
+    "traceability",
+    "program-reflection",
+    "knowledge-management"
+  ],
+  "source_tool": "capella-fabric",
+  "lineage": [
+    "11f5f77d-592f-4355-b2b6-0879123fbab5",
+    "49f24a67-4910-4e2e-bc09-a2cf3d9eab20"
+  ]
+}

@@ -74,5 +74,21 @@
       "evaluation",
       "store-energy"
     ]
+  },
+  "25a05fcf-50da-4bd3-a07a-9d27daa162cd": {
+    "type": "text",
+    "name": "Observation \u2014 MBSE-Driven Engineering Approach Shows Strong Value",
+    "package_name": "trail-power",
+    "path": "packages/trail-power/artifacts/2026-06/25a05fcf-50da-4bd3-a07a-9d27daa162cd",
+    "created_at": "2026-06-10T12:27:20.811364+00:00",
+    "updated_at": "2026-06-10T12:27:20.811389+00:00",
+    "tags": [
+      "observation",
+      "MBSE",
+      "process",
+      "traceability",
+      "program-reflection",
+      "knowledge-management"
+    ]
   }
 }
