@@ -1,0 +1,20 @@
+{
+  "artifact_id": "f8869c15-c7cc-47d9-8295-618d0274b50c",
+  "name": "Observation — Panasonic NCR18650B Meets Specified Performance",
+  "type": "text",
+  "package_name": "trail-power",
+  "created_at": "2026-06-10T12:21:53.022072Z",
+  "updated_at": "2026-06-10T12:21:53.022107Z",
+  "tags": [
+    "observation",
+    "NCR18650B",
+    "battery",
+    "performance",
+    "store-energy",
+    "verification"
+  ],
+  "source_tool": "capella-fabric",
+  "lineage": [
+    "11f5f77d-592f-4355-b2b6-0879123fbab5"
+  ]
+}
