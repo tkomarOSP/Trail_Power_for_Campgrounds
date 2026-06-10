@@ -3,13 +3,13 @@
   "name": "Trail Power Engineering Work Log",
   "type": "log_book",
   "package_name": "trail-power",
-  "created_at": "2026-06-10T12:18:09.475672Z",
-  "updated_at": "2026-06-10T12:18:09.475699Z",
+  "created_at": "2026-06-10T12:18:53.705874Z",
+  "updated_at": "2026-06-10T12:18:53.705948Z",
   "tags": [
     "log",
     "work-log",
     "trail-power"
   ],
-  "source_tool": null,
+  "source_tool": "add_log_entry",
   "lineage": []
 }
