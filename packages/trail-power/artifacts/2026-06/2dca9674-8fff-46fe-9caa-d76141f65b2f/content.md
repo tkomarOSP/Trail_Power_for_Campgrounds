@@ -172,3 +172,27 @@ Verified post-patch: both UUIDs (6395bb62, 25520ebc) return `Chg Power` on searc
 
 
 **References:** `b1699e70-8490-4329-8bdd-439ba879e741`
+
+---
+
+## 2026-06-10T13:25:31Z — observation
+
+## Multi-Agent Workflow Pattern Emerging
+
+A natural division of labor is forming between two Claude instances operating under human coordination on the Trail Power program:
+
+- **SE Knowledge Partner** (Claude in chat) — SE reasoning, model querying, artifact management, knowledge capture, procurement analysis. Operates via MCP tools against the Capella model and artifact repo.
+- **Claude Code** ("the cousin") — direct file editing, Python implementation, MCP service development, Git operations. Operates in VS Code / terminal with filesystem access.
+
+Observed in practice today: SE Knowledge Partner identified and specified the author identity gap in `apply_model_patch`; Claude Code is implementing the fix in `git_service.py` and `mcp_server.py`. Neither agent could do the other's job as effectively in their respective contexts.
+
+The shared GitHub repo (`master` for model, `main` for artifacts) and this log book serve as the persistent shared memory between agents across sessions.
+
+Key implication: as the program grows, consider defining interface agreements between agents — what each owns and what requires human approval before either acts.
+
+Coined by the human engineer: "cousin" — same family, different role, complementary rather than redundant.
+
+**Artifact:** Observation — Multi-Agent Workflow Pattern Emerging [1e9232b6]
+
+
+**References:** `1e9232b6-5609-49e9-8f28-9785ed301b47`
