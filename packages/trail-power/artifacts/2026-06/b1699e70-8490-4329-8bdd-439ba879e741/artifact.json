@@ -1,0 +1,19 @@
+{
+  "artifact_id": "b1699e70-8490-4329-8bdd-439ba879e741",
+  "name": "Issue — Capella Fabric MCP: Write/Patch Capability + Author Identity on Commits",
+  "type": "text",
+  "package_name": "trail-power",
+  "created_at": "2026-06-10T13:21:33.586903Z",
+  "updated_at": "2026-06-10T13:21:33.586931Z",
+  "tags": [
+    "issue",
+    "capella-fabric",
+    "MCP",
+    "enhancement",
+    "apply-patch",
+    "author-identity",
+    "todo"
+  ],
+  "source_tool": null,
+  "lineage": []
+}
