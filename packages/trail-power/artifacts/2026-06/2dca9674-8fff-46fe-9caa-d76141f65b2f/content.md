@@ -125,3 +125,20 @@ Key observations:
 
 
 **References:** `25a05fcf-50da-4bd3-a07a-9d27daa162cd`
+
+---
+
+## 2026-06-10T12:39:23Z — issue
+
+## Issue: Binary File Upload to Artifact Repo Not Yet Supported
+
+The artifact repo MCP currently supports text/JSON/YAML only — binary deliverables like `.docx`, `.pdf`, and `.xlsx` files cannot be committed directly to the knowledge repo. This leaves the traceability chain incomplete between reference artifacts and their associated file deliverables.
+
+**Immediate impact:** `RFP_NCR18650B_TrailPower.docx` exists locally but is not in the repo. The reference artifact [03591bcc] describes it but cannot link to the file itself.
+
+**To do:** Revisit when new MCP services come online — candidate for a new `upload_file_artifact` tool or direct Git binary commit to a `deliverables/` folder on `main`.
+
+**Artifact:** Issue — Binary File Upload to Artifact Repo Not Yet Supported [f6965579]
+
+
+**References:** `f6965579-99e0-48d9-91ef-306a00c66ae8`
