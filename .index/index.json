@@ -122,5 +122,21 @@
       "author-identity",
       "todo"
     ]
+  },
+  "1e9232b6-5609-49e9-8f28-9785ed301b47": {
+    "type": "text",
+    "name": "Observation \u2014 Multi-Agent Workflow Pattern Emerging",
+    "package_name": "trail-power",
+    "path": "packages/trail-power/artifacts/2026-06/1e9232b6-5609-49e9-8f28-9785ed301b47",
+    "created_at": "2026-06-10T13:25:24.046294+00:00",
+    "updated_at": "2026-06-10T13:25:24.046324+00:00",
+    "tags": [
+      "observation",
+      "multi-agent",
+      "workflow",
+      "claude-code",
+      "MBSE",
+      "process"
+    ]
   }
 }

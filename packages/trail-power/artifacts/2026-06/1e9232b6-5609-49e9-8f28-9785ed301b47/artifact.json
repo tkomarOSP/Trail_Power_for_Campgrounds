@@ -1,0 +1,18 @@
+{
+  "artifact_id": "1e9232b6-5609-49e9-8f28-9785ed301b47",
+  "name": "Observation — Multi-Agent Workflow Pattern Emerging",
+  "type": "text",
+  "package_name": "trail-power",
+  "created_at": "2026-06-10T13:25:24.046294Z",
+  "updated_at": "2026-06-10T13:25:24.046324Z",
+  "tags": [
+    "observation",
+    "multi-agent",
+    "workflow",
+    "claude-code",
+    "MBSE",
+    "process"
+  ],
+  "source_tool": null,
+  "lineage": []
+}
