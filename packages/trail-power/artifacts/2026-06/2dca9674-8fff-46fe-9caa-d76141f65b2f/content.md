@@ -211,3 +211,22 @@ Secret hygiene guideline added to v2 prompt: never include real PAT values in ar
 
 
 **References:** `48d5ee3a-9087-455e-9d98-cc27c4e35323`
+
+---
+
+## 2026-06-10T17:17:22Z — decision
+
+## Decision: No New UI — Use GitHub Log Book with Hyperlinked Artifact References
+
+The program will not introduce a dedicated UI for the knowledge repository at this time. Instead, the GitHub-rendered Markdown log book on the `main` branch will serve as the primary interface for reviewing program records.
+
+**Rationale:**
+- GitHub renders Markdown natively — the log book is already readable without additional tooling
+- Introducing a new UI adds complexity and maintenance overhead at this stage
+- Hyperlinked artifact references within the log book provide sufficient navigation capability
+- Keeps the toolchain lean and focused on engineering value rather than infrastructure
+
+**Enhancement:** Artifact references in log entries will be enhanced with GitHub-relative hyperlinks, allowing direct navigation from a log entry to the referenced artifact file in the repository. Format: `[ArtifactName](../../artifacts/2026-06/<artifact_id>)`
+
+**Deferred:** UI tooling remains an option for a future phase when the artifact volume and team size justify it.
+
