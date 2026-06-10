@@ -90,5 +90,20 @@
       "program-reflection",
       "knowledge-management"
     ]
+  },
+  "f6965579-99e0-48d9-91ef-306a00c66ae8": {
+    "type": "text",
+    "name": "Issue \u2014 Binary File Upload to Artifact Repo Not Yet Supported",
+    "package_name": "trail-power",
+    "path": "packages/trail-power/artifacts/2026-06/f6965579-99e0-48d9-91ef-306a00c66ae8",
+    "created_at": "2026-06-10T12:39:16.483818+00:00",
+    "updated_at": "2026-06-10T12:39:16.483853+00:00",
+    "tags": [
+      "issue",
+      "capability-gap",
+      "file-upload",
+      "artifact-repo",
+      "todo"
+    ]
   }
 }
