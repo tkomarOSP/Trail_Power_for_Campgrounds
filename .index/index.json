@@ -14,5 +14,20 @@
       "physical-architecture",
       "store-energy"
     ]
+  },
+  "03591bcc-7db6-42ad-ae67-dd4117b021a8": {
+    "type": "text",
+    "name": "RFP TP-BAT-2026-001 \u2014 NCR18650B Procurement",
+    "package_name": "trail-power",
+    "path": "packages/trail-power/artifacts/2026-06/03591bcc-7db6-42ad-ae67-dd4117b021a8",
+    "created_at": "2026-06-10T12:18:04.704016+00:00",
+    "updated_at": "2026-06-10T12:18:04.704053+00:00",
+    "tags": [
+      "RFP",
+      "procurement",
+      "NCR18650B",
+      "battery",
+      "TP-BAT-2026-001"
+    ]
   }
 }
